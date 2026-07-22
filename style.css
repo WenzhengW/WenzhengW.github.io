@@ -71,10 +71,8 @@ p { margin-top: 0; }
 .compact h3 { margin-bottom: 4px; }
 .compact p { margin-bottom: 0; }
 
-.activity-list { margin: 0; padding: 0; list-style: none; }
-.activity-list li { display: flex; justify-content: space-between; gap: 24px; padding: 10px 0; border-bottom: 1px solid #edf0f2; }
-.activity-list time { flex: none; color: var(--muted); font-size: .9rem; }
 .document-card { display: flex; justify-content: space-between; align-items: center; gap: 25px; padding: 22px 24px; border: 1px solid var(--line); border-radius: 8px; background: var(--wash); }
+.document-card + .document-card { margin-top: 16px; }
 .document-card h3, .document-card p { margin-bottom: 2px; }
 .document-card p { color: var(--muted); font-size: .9rem; }
 .document-card a { flex: none; font-weight: 650; }
@@ -91,5 +89,5 @@ footer p { margin: 0; }
   .sidebar { position: static; display: grid; grid-template-columns: 70px 1fr; column-gap: 18px; }
   .sidebar .monogram { grid-row: span 3; }
   .sidebar p, .sidebar a { grid-column: 2; }
-  .entry-heading, .activity-list li, .document-card { align-items: flex-start; flex-direction: column; gap: 5px; }
+  .entry-heading, .document-card { align-items: flex-start; flex-direction: column; gap: 5px; }
 }

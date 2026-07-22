@@ -10,4 +10,4 @@ Before publishing:
 
 To add lecture notes later:
 1. Upload the PDF into the files folder.
-2. Add a link in the Documents section of index.html.
+2. Add a document card linking to it in lecture-notes.html.
