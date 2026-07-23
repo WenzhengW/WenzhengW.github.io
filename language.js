@@ -70,7 +70,7 @@
       if (element) element[html ? 'innerHTML' : 'textContent'] = language === 'zh' ? zh : en;
     });
     const button = document.querySelector('.language-toggle');
-    button.textContent = language === 'zh' ? 'English' : '\u4E2D\u6587';
+    button.textContent = language === 'zh' ? 'EN / \u4E2D\u6587' : '\u4E2D\u6587 / EN';
     button.setAttribute('aria-label', language === 'zh' ? 'Switch to English' : 'Switch to Chinese');
     try { localStorage.setItem('site-language', language); } catch (_) {}
   }
