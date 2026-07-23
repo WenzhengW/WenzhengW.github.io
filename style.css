@@ -35,11 +35,14 @@ a:hover { color: var(--accent-dark); }
 .site-name { color: var(--ink); font-family: Georgia, "Times New Roman", serif; font-size: 1.2rem; font-weight: 700; text-decoration: none; }
 nav { display: flex; flex-wrap: wrap; gap: 22px; }
 nav a { color: var(--muted); font-size: .9rem; text-decoration: none; }
+.language-toggle { flex: none; padding: 7px 12px; border: 1px solid var(--line); border-radius: 999px; color: var(--accent); background: var(--paper); font: inherit; font-size: .82rem; font-weight: 700; cursor: pointer; }
+.language-toggle:hover { border-color: var(--accent); background: var(--wash); }
 
 .hero { padding: 90px 0 76px; border-bottom: 1px solid var(--line); }
 .eyebrow { margin: 0 0 10px; color: var(--accent); font-size: .77rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
 h1, h2 { font-family: Georgia, "Times New Roman", serif; }
 h1 { margin: 0; font-size: clamp(3.1rem, 8vw, 5.8rem); line-height: .98; letter-spacing: -.045em; }
+.chinese-name { font-size: .62em; letter-spacing: .02em; white-space: nowrap; }
 .role { margin: 28px 0 0; color: var(--accent); font-size: 1.35rem; font-weight: 650; }
 .affiliation { margin: 6px 0 0; color: var(--muted); }
 .quick-links { display: flex; align-items: center; gap: 22px; margin-top: 32px; }
@@ -82,7 +85,7 @@ footer p { margin: 0; }
 
 @media (max-width: 760px) {
   .site-header { position: static; }
-  .nav-wrap { padding: 16px 0; align-items: flex-start; }
+  .nav-wrap { padding: 16px 0; align-items: center; }
   nav { display: none; }
   .hero { padding: 64px 0 55px; }
   .content-grid { grid-template-columns: 1fr; gap: 48px; padding-top: 52px; }
