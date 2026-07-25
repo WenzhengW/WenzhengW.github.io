@@ -52,8 +52,12 @@
     ['.sidebar p:nth-of-type(2)', 'Wenzheng Wang<br>Mathematics', 'Wenzheng Wang \u738B\u6587\u653F<br>\u6570\u5B66', true],
     ['.sidebar > a', 'Academic homepage', '\u5B66\u672F\u4E3B\u9875'],
     ['.main-content h2', 'Notes', '\u8BB2\u4E49'],
-    ['.document-card p', '2025 Summer', '2025 \u5E74\u590F\u5B63'],
-    ['.document-card a', 'View PDF', '\u67E5\u770B PDF']
+    ['[data-note="algebraic-geometry"] h3', 'Algebraic Geometry 2', '\u4EE3\u6570\u51E0\u4F55 2'],
+    ['[data-note="algebraic-geometry"] p', '2025 Summer', '2025 \u5E74\u590F\u5B63'],
+    ['[data-note="algebraic-geometry"] a', 'View PDF', '\u67E5\u770B PDF'],
+    ['[data-note="harmonic-analysis"] h3', 'Harmonic Analysis', '\u8C03\u548C\u5206\u6790'],
+    ['[data-note="harmonic-analysis"] p', '2025 Summer', '2025 \u5E74\u590F\u5B63'],
+    ['[data-note="harmonic-analysis"] a', 'View PDF', '\u67E5\u770B PDF']
   ];
   const isNotes = location.pathname.endsWith('lecture-notes.html');
   const rows = common.concat(isNotes ? notes : home);
