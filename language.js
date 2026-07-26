@@ -57,7 +57,10 @@
     ['[data-note="algebraic-geometry"] a', 'View PDF', '\u67E5\u770B PDF'],
     ['[data-note="harmonic-analysis"] h3', 'Harmonic Analysis', '\u8C03\u548C\u5206\u6790'],
     ['[data-note="harmonic-analysis"] p', '2025 Summer', '2025 \u5E74\u590F\u5B63'],
-    ['[data-note="harmonic-analysis"] a', 'View PDF', '\u67E5\u770B PDF']
+    ['[data-note="harmonic-analysis"] a', 'View PDF', '\u67E5\u770B PDF'],
+    ['[data-note="microlocal-analysis"] h3', 'Microlocal Analysis', '\u5FAE\u5C40\u90E8\u5206\u6790'],
+    ['[data-note="microlocal-analysis"] p', '2025 Summer', '2025 \u5E74\u590F\u5B63'],
+    ['[data-note="microlocal-analysis"] a', 'View PDF', '\u67E5\u770B PDF']
   ];
   const isNotes = location.pathname.endsWith('lecture-notes.html');
   const rows = common.concat(isNotes ? notes : home);
