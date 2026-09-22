@@ -1,8 +1,11 @@
 (() => {
   const common = [
-    ['footer p', '\u00A9 2026 Wenzheng Wang. Last updated July 2026.', '\u00A9 2026 Wenzheng Wang \u738B\u6587\u653F\u3002\u6700\u540E\u66F4\u65B0\u4E8E 2026 \u5E74 7 \u6708\u3002']
+    ['footer p', '\u00A9 2026 Wenzheng Wang. Last updated September 2026.', '\u00A9 2026 Wenzheng Wang \u738B\u6587\u653F\u3002\u6700\u540E\u66F4\u65B0\u4E8E 2026 \u5E74 9 \u6708\u3002']
   ];
   const home = [
+    ['nav a[href="#articles"]', 'Articles', '文章'],
+    ['#articles h2', 'Articles', '文章'],
+    ['#articles .article-author', 'Wenzheng Wang', '王文政'],
     ['nav a[href="#about"]', 'About', '\u5173\u4E8E\u6211'],
     ['nav a[href="#research"]', 'Research', '\u7814\u7A76'],
     ['nav a[href="#education"]', 'Education', '\u6559\u80B2'],
@@ -40,6 +43,7 @@
     ['#documents .document-card:last-of-type a', 'View notes', '\u67E5\u770B\u8BB2\u4E49']
   ];
   const notes = [
+    ['nav a[href="index.html#articles"]', 'Articles', '文章'],
     ['nav a[href="index.html"]', 'Home', '\u4E3B\u9875'],
     ['nav a[href="index.html#research"]', 'Research', '\u7814\u7A76'],
     ['nav a[href="index.html#teaching"]', 'Teaching', '\u6559\u5B66'],
